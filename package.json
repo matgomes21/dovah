@@ -6,6 +6,10 @@
   "repository": "https://github.com/matgomes21/dovah",
   "author": "Mateus Gomes <mateusgomes.nascimento21@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
