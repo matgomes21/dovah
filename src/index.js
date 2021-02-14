@@ -18,8 +18,14 @@ client.on('message', (message) => {
       .substring(PREFIX.length)
       .split(/\s+/);
 
-      if(command === 'hello'){
-        message.channel.send('FUS RO DAH');
+      switch(command){
+        case 'hello':
+        case 'shout':
+          message.channel.send('FUS RO DAH');
+        break;
+
+        default:
+          message.channel.send('I DO NOT KNOW THIS SHOUT');
       }
   }
 });
