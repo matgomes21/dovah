@@ -129,6 +129,10 @@ client.on('message', (message) => {
           message.channel.send('🐲 <@&808788414584455170> ALERTA DE CRIT');
           message.channel.send({files: ['https://cdn.discordapp.com/attachments/802066329334054933/802455593184788541/fome_zero.jpg']});
         break;
+        case 'dangas':
+          message.channel.send('🐲 <@!466326888298577920> ALERTA DE DANGAS');
+          message.channel.send({files: ['http://pm1.narvii.com/7390/3aabe53d9ba0b49ec58ea7078c159e100600666er1-845-845v2_uhq.jpg']});
+        break;
       }
   }
 });
