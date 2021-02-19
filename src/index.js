@@ -129,9 +129,15 @@ client.on('message', (message) => {
           message.channel.send('🐲 <@&808788414584455170> ALERTA DE CRIT');
           message.channel.send({files: ['https://cdn.discordapp.com/attachments/802066329334054933/802455593184788541/fome_zero.jpg']});
         break;
+
         case 'dangas':
           message.channel.send('🐲 <@!466326888298577920> ALERTA DE DANGAS');
           message.channel.send({files: ['http://pm1.narvii.com/7390/3aabe53d9ba0b49ec58ea7078c159e100600666er1-845-845v2_uhq.jpg']});
+        break;
+
+        case 'booba':
+          message.channel.send('Booba, oh Booba... o que foi que eu fiz?\nOlhe só pra você, nem está consciente e continua empenhado em mostrar ao disc o que pode critar...\nSesp: Ele está nocauteado, tudo o que mantém de pé é o poder do casers acabando\nVocê já provou...Você é um grande melador!');
+          message.channel.send({files: ['https://pm1.narvii.com/6268/b38420bb24fc71137d035a469e8c3d143b480330_hq.jpg']});
         break;
       }
   }
