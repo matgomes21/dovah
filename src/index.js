@@ -146,7 +146,11 @@ client.on('message', (message) => {
         break;
 
         case 'funk':
-          message.channel.send('-p https://www.youtube.com/playlist?list=PLLhmrPO8y1X09H2k9jr8DFdLVW19x7_rZ');
+          message.channel.send('https://www.youtube.com/playlist?list=PLLhmrPO8y1X09H2k9jr8DFdLVW19x7_rZ');
+        break;
+
+        case 'rock':
+          message.channel.send('https://open.spotify.com/playlist/5nM6PIAwhQRI5WCWQTtlgl?si=HwD1s1HLR9mmluMSV33_qQ');
         break;
       }
   }
