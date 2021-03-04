@@ -139,10 +139,14 @@ client.on('message', (message) => {
           message.channel.send('Booba, oh Booba... o que foi que eu fiz?\nOlhe só pra você, nem está consciente e continua empenhado em mostrar ao disc o que pode critar...\nSesp: Ele está nocauteado, tudo o que mantém de pé é o poder do casers acabando\nVocê já provou...Você é um grande melador!');
           message.channel.send({files: ['https://pm1.narvii.com/6268/b38420bb24fc71137d035a469e8c3d143b480330_hq.jpg']});
         break;
-          
+
         case 'mary':
           message.channel.send('A Mary pode ser um pouco dura as vezes\nTalvez você não saiba disso, mas a Mary também cresceu sem crit e nunca melou ninguem de nosso disc\nMesmo assim eu nunca vi ela comer crits, roubar wl ou não liberar o p\nEla está sempre ansiosa pelo $ha e quer melar de crits, é o sonho dela, e arriscaria o rolls por isso, sem hesitar\nMeu palpite é que ela se cansou de casar por dinheiro e decidiu gastar rolls',
                                {files: ['https://i.imgur.com/lR3sf9C.png']});
+        break;
+
+        case 'funk':
+          message.channel.send('-p https://www.youtube.com/playlist?list=PLLhmrPO8y1X09H2k9jr8DFdLVW19x7_rZ');
         break;
       }
   }
