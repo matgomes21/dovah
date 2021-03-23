@@ -8,8 +8,7 @@ const client = new Client();
 const PREFIX = process.env.BOT_PREFIX;
 
 
-let servers = {};
-let waCooldown = 11;
+// let waCooldown = 11;
 
 client.on('ready', () => {
   console.log(`${client.user.username} shouts FUS RO DAH`);
@@ -30,56 +29,6 @@ client.on('message', (message) => {
         case 'shout':
           message.channel.send('🐲 FUS RO DAH');
         break;
-
-        // case 'play':
-
-        //   function play(connection, message){
-        //     let server = servers[message.guild.id];
-
-        //     console.log(servers);
-        //     console.log(server.queue[0]);
-
-        //     console.log(connection.play);
-
-        //     server.dispatcher = connection.play(ytdl(server.queue[0],{filter: 'audioonly'}));
-
-        //     console.log(dispatcher);
-
-        //     server.queue.shift();
-
-        //     server.dispatcher.on('end', function(){
-        //       if(server.queue[0]){
-        //         play(connection, message);
-        //       } else{
-        //         connection.disconnect();
-        //       }
-        //     })
-        //   }
-
-        //   if(!args){
-        //     message.channel.send('🐲 YOU MUST FEED ME WITH A LINK');
-        //     return;
-        //   }
-        //   if(!message.member.voice.channel){
-        //     message.channel.send('🐲 YOU MUST BE IN A CHANNEL');
-        //     return;
-        //   }
-
-        //   if(!servers[message.guild.id])
-        //     servers[message.guild.id] = {
-        //       queue: []
-        //     }
-
-        //   let server = servers[message.guild.id];
-
-        //   server.queue.push(args[0]);
-
-        //   if(!message.guild.voiceConnection)
-        //     message.member.voice.channel.join().then(function(connection){
-        //       play(connection, message);
-        //     })
-
-        // break;
 
         case 'comes':
           message.channel.send('🐲 TENHO PENA');
@@ -111,13 +60,13 @@ client.on('message', (message) => {
           message.channel.send({files: ['https://cdn.discordapp.com/attachments/802066329334054933/802066759912914974/44522033_441922009665290_7550316820037632000_n.jpg']});
         break;
 
-        case 'wa':
-          waCooldown++;
-          if(waCooldown===12){
-            waCooldown=0;
-            message.channel.send('🐲 SÓ USA WA QUEM NÃO SE GARANTE NO H');
-          }
-        break;
+        // case 'wa':
+        //   waCooldown++;
+        //   if(waCooldown===12){
+        //     waCooldown=0;
+        //     message.channel.send('🐲 SÓ USA WA QUEM NÃO SE GARANTE NO H');
+        //   }
+        // break;
 
         // case 'wg':
         // case 'hg':
