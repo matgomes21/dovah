@@ -1,12 +1,10 @@
 require('dotenv').config();
 
-const { Client } = require('discord.js');
-const ytdl = require('ytdl-core');
+const { Client, MessageEmbed } = require('discord.js');
 
 const client = new Client();
 
 const PREFIX = process.env.BOT_PREFIX;
-
 
 // let waCooldown = 11;
 
@@ -28,6 +26,40 @@ client.on('message', (message) => {
         case 'hello':
         case 'shout':
           message.channel.send('🐲 FUS RO DAH');
+        break;
+
+        case 'help':
+        case 'ajuda':
+          const embedMessage = {
+            color: '#842bd7',
+            author: {
+              name: 'Dovah',
+              icon_url: 'https://i.imgur.com/esA2MmC.png',
+              url: 'https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot'
+            },
+            title: 'Convide para seu servidor!',
+            url: 'https://discord.js.org/',
+            fields: [
+              {
+                name: `\u200B\n🇫 Memes`,
+                value: `\u200B\n**$bob/boohbah**: Ataque dos Boohbas lokors\n**$f**: F apenas\n**$booba**: Booba... Oh Booba...\n**$mary**: Pode ser um pouco dura as vezes\n**$brasilchora/bc**: Chore se chorou\n**$apavore**: Seja apavorado pelo bonde dos zillas lokos 🐲🐲🐲`
+              },
+              {
+                name: `\u200B\n\n📢 Chamados`,
+                value: `\u200B\n**$crit/aviso**: Hoje a fome não será passada!\n\n**$dangas/monte**: É o dangas\n\n**$trocas**: Te vejo lá deputado`
+              },
+              {
+                name: `\u200B\n\n🎵 Músicas`,
+                value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno`
+              },
+            ],
+            timestamp: new Date(),
+            footer: {
+              text: 'Dale dale na narguilera',
+              icon_url: 'https://i.imgur.com/esA2MmC.png'
+            },
+          };
+          message.channel.send({ embed: embedMessage });
         break;
 
         case 'comes':
@@ -79,6 +111,7 @@ client.on('message', (message) => {
           message.channel.send({files: ['https://cdn.discordapp.com/attachments/802066329334054933/802455593184788541/fome_zero.jpg']});
         break;
 
+        case 'monte':
         case 'dangas':
           message.channel.send('🐲 <@!466326888298577920> ALERTA DE DANGAS');
           message.channel.send({files: ['http://pm1.narvii.com/7390/3aabe53d9ba0b49ec58ea7078c159e100600666er1-845-845v2_uhq.jpg']});
