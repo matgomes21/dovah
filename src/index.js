@@ -10,14 +10,16 @@ const PREFIX = process.env.BOT_PREFIX;
 cron.schedule('0 */2 * * *', () => {
   console.log('Entering CronJob...');
 
-  const channelId = '799797745778294784';
+  const channelId = ['799797745778294784', '608130144531382300'];
 
-  const channel = client.channels.cache.find(channel => channel.id === channelId);
-  if(channel){
-      channel.send('🐲 TA NA HORA DO HIDRATUS', {files: ['https://i.imgur.com/9PvpmCu.jpg']});
-  }
-  else {
-    console.log('Channel not found.');
+  for(i in channelId){
+    const channel = client.channels.cache.find(channel => channel.id === channelId[i]);
+    if(channel){
+        channel.send('🐲 TA NA HORA DO HIDRATUS', {files: ['https://i.imgur.com/9PvpmCu.jpg']});
+    }
+    else {
+      console.log(`Channel with id ${channelId[i]} not found.`);
+    }
   }
 });
 
