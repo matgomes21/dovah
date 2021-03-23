@@ -1,12 +1,10 @@
 require('dotenv').config();
 
-const { Client, MessageEmbed } = require('discord.js');
+const { Client } = require('discord.js');
 
 const client = new Client();
 
 const PREFIX = process.env.BOT_PREFIX;
-
-// let waCooldown = 11;
 
 client.on('ready', () => {
   console.log(`${client.user.username} shouts FUS RO DAH`);
@@ -91,19 +89,6 @@ client.on('message', (message) => {
         case 'trocas':
           message.channel.send({files: ['https://cdn.discordapp.com/attachments/802066329334054933/802066759912914974/44522033_441922009665290_7550316820037632000_n.jpg']});
         break;
-
-        // case 'wa':
-        //   waCooldown++;
-        //   if(waCooldown===12){
-        //     waCooldown=0;
-        //     message.channel.send('🐲 SÓ USA WA QUEM NÃO SE GARANTE NO H');
-        //   }
-        // break;
-
-        // case 'wg':
-        // case 'hg':
-        //   message.channel.send('🐲 SEM MISERICÓRDIA COM OS FAMINTOS HEIN?');
-        // break;
 
         case 'aviso':
         case 'crit':
