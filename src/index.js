@@ -1,10 +1,25 @@
 require('dotenv').config();
 
 const { Client } = require('discord.js');
+const cron = require('node-cron');
 
 const client = new Client();
 
 const PREFIX = process.env.BOT_PREFIX;
+
+cron.schedule('0 */2 * * *', () => {
+  console.log('Entering CronJob...');
+
+  const channelId = '799797745778294784';
+
+  const channel = client.channels.cache.find(channel => channel.id === channelId);
+  if(channel){
+      channel.send('🐲 TA NA HORA DO HIDRATUS', {files: ['https://i.imgur.com/9PvpmCu.jpg']});
+  }
+  else {
+    console.log('Channel not found.');
+  }
+});
 
 client.on('ready', () => {
   console.log(`${client.user.username} shouts FUS RO DAH`);
