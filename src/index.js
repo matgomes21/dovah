@@ -44,7 +44,7 @@ client.on('message', (message) => {
               },
               {
                 name: `\u200B\n\n📢 Chamados`,
-                value: `\u200B\n**$crit/aviso**: Hoje a fome não será passada!\n\n**$dangas/monte**: É o dangas\n\n**$trocas**: Te vejo lá deputado`
+                value: `\u200B\n**$crit/aviso**: Hoje a fome não será passada!\n\n**$dangas/monte**: É o dangas\n\n**$trocas**: Te vejo lá deputado\n\n**$kakers/kaker/kakera**: DIÑERO`
               },
               {
                 name: `\u200B\n\n🎵 Músicas`,
