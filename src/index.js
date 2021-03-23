@@ -61,7 +61,7 @@ client.on('message', (message) => {
               },
               {
                 name: `\u200B\n\n📢 Chamados`,
-                value: `\u200B\n**$crit/aviso**: Hoje a fome não será passada!\n\n**$dangas/monte**: É o dangas\n\n**$trocas**: Te vejo lá deputado\n\n**$kakers/kaker/kakera**: DIÑERO`
+                value: `\u200B\n**$crit/aviso**: Hoje a fome não será passada!\n\n**$dangas/monte**: É o dangas\n\n**$trocas**: Te vejo lá deputado\n\n**$kakers/kaker/kakera/diñero**: DIÑERO`
               },
               {
                 name: `\u200B\n\n🎵 Músicas`,
@@ -116,6 +116,7 @@ client.on('message', (message) => {
         case 'kaker':
         case 'kakera':
         case 'kakers':
+        case 'diñero':
           message.channel.send('🐲 <@&808788414584455170> ALERTA DE KAKERA BOM',
                                 {files: ['https://i.imgur.com/hUqRoBR.png']});
         break;
