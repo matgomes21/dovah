@@ -119,10 +119,10 @@ client.on('message', (message) => {
           }
         break;
 
-        case 'wg':
-        case 'hg':
-          message.channel.send('🐲 SEM MISERICÓRDIA COM OS FAMINTOS HEIN?');
-        break;
+        // case 'wg':
+        // case 'hg':
+        //   message.channel.send('🐲 SEM MISERICÓRDIA COM OS FAMINTOS HEIN?');
+        // break;
 
         case 'aviso':
         case 'crit':
