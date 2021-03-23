@@ -50,7 +50,7 @@ client.on('message', (message) => {
               },
               {
                 name: `\u200B\n\n🎵 Músicas`,
-                value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno`
+                value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno\n\n**$foda**: Playlist do boo?bi?nha?\n\n`
               },
             ],
             timestamp: new Date(),
@@ -133,6 +133,10 @@ client.on('message', (message) => {
 
         case 'rock':
           message.channel.send('https://open.spotify.com/playlist/5nM6PIAwhQRI5WCWQTtlgl?si=HwD1s1HLR9mmluMSV33_qQ');
+        break;
+
+        case 'foda':
+          message.channel.send('https://www.youtube.com/playlist?list=PLmz1OE_6GMnbcaKnU6VlXCNQ_aG3yJao_');
         break;
       }
   }
