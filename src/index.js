@@ -10,7 +10,7 @@ const PREFIX = process.env.BOT_PREFIX;
 cron.schedule('0 */2 * * *', () => {
   console.log('Entering CronJob...');
 
-  const channelId = ['799797745778294784', '608130144531382300'];
+  const channelId = ['799797745778294784', '824425213599940638'];
 
   for(i in channelId){
     const channel = client.channels.cache.find(channel => channel.id === channelId[i]);
