@@ -151,7 +151,8 @@ client.on('message', (message) => {
 
       case 'chave':
       case 'chaves':
-        message.channel.send('Lá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\n(Isso, isso, isso, isso..)\n\nLá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\nA Chiquinha é uma gracinha,\nrelincha tanto quando vai chorar\n\nE Seu Madruga, sempre muito calado,\nNão abre a boca só pra não brigar\n\nO Professor Girafales e a Dona Florinda,\nSe gostam tanto mas casório, nada ainda.\n\nE tem o Quico com a bochecha toda inchada,\nE é claro o Chaves, o rei da palhaçada\nE é claro o Chaves, o rei da palhaçada\n\nLá vem o Chaves, Chaves, Chaves,\nTô chegando!\nLá vem o Chaves, Chaves, Chaves!');
+        message.channel.send('Lá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\n(Isso, isso, isso, isso..)\n\nLá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\nA Chiquinha é uma gracinha,\nrelincha tanto quando vai chorar\n\nE Seu Madruga, sempre muito calado,\nNão abre a boca só pra não brigar\n\nO Professor Girafales e a Dona Florinda,\nSe gostam tanto mas casório, nada ainda.\n\nE tem o Quico com a bochecha toda inchada,\nE é claro o Chaves, o rei da palhaçada\nE é claro o Chaves, o rei da palhaçada\n\nLá vem o Chaves, Chaves, Chaves,\nTô chegando!\nLá vem o Chaves, Chaves, Chaves!\n\n',
+          { files: ['https://64.media.tumblr.com/tumblr_m0c4w8mWZb1r1n91fo1_400.gif?w=580'] });
         break;
     }
   }
