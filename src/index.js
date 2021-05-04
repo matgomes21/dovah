@@ -53,7 +53,7 @@ client.on('message', (message) => {
             url: 'https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot'
           },
           title: 'Convide para seu servidor!',
-          url: 'https://discord.js.org/',
+          url: 'https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot',
           fields: [
             {
               name: `\u200B\n🇫 Memes`,
