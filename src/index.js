@@ -50,7 +50,7 @@ client.on('message', (message) => {
           author: {
             name: 'Dovah',
             icon_url: 'https://i.imgur.com/esA2MmC.png',
-            url: 'https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot'
+            url: 'https://discord.js.org/'
           },
           title: 'Convide para seu servidor!',
           url: 'https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot',
