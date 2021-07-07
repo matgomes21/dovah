@@ -57,7 +57,7 @@ client.on('message', (message) => {
           fields: [
             {
               name: `\u200B\n🇫 Memes`,
-              value: `\u200B\n**$bob/boohbah**: Ataque dos Boohbas lokors\n**$f**: F apenas\n**$booba**: Booba... Oh Booba...\n**$mary**: Pode ser um pouco dura as vezes\n**$brasilchora/bc**: Chore se chorou\n**$apavore**: Seja apavorado pelo bonde dos zillas lokos 🐲🐲🐲\n**$chave/chaves**: Lá vem ele 🔑`
+              value: `\u200B\n**$bob/boohbah**: Ataque dos Boohbas lokors\n**$f**: F apenas\n**$booba**: Booba... Oh Booba...\n**$mary**: Pode ser um pouco dura as vezes\n**$brasilchora/bc**: Chore se chorou\n**$apavore**: Seja apavorado pelo bonde dos zillas lokos 🐲🐲🐲\n**$chave/chaves**: Lá vem ele 🔑\n**$gloria**: GLORIA SENHOR`
             },
             {
               name: `\u200B\n\n📢 Chamados`,
@@ -152,7 +152,7 @@ client.on('message', (message) => {
       case 'antigas':
         message.channel.send('https://open.spotify.com/playlist/7leDfB0K4F9U2ggEp7MmR1?si=244cd69d75be4f5e');
         break;
-        
+
       case 'hero3':
         message.channel.send('https://open.spotify.com/playlist/2ZONg885GRx1XlgcsNVzLk?si=2e6d566ba7de4c76');
         break;
@@ -161,6 +161,13 @@ client.on('message', (message) => {
       case 'chaves':
         message.channel.send('Lá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\n(Isso, isso, isso, isso..)\n\nLá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\nA Chiquinha é uma gracinha,\nrelincha tanto quando vai chorar\n\nE Seu Madruga, sempre muito calado,\nNão abre a boca só pra não brigar\n\nO Professor Girafales e a Dona Florinda,\nSe gostam tanto mas casório, nada ainda.\n\nE tem o Quico com a bochecha toda inchada,\nE é claro o Chaves, o rei da palhaçada\nE é claro o Chaves, o rei da palhaçada\n\nLá vem o Chaves, Chaves, Chaves,\nTô chegando!\nLá vem o Chaves, Chaves, Chaves!\n\n',
           { files: ['https://64.media.tumblr.com/tumblr_m0c4w8mWZb1r1n91fo1_400.gif?w=580'] });
+        break;
+
+      case 'gloria':
+      case 'gloriasenhor':
+      case 'lucro':
+        message.channel.send('GLORIA SENHOR!\nGLORIA SENHOR!\nNOSSO LUCRO É SUADO\nTRABALHAMOS POR AMOR!\nSE VOCÊ FICAR EM CASA, O LUCRO NÃO VEM NA MÃO\nSE FALHAR NA RESPONSA E ERRAR NA MISSÃO\nO LUCRO NÃO VEM NA MÃO (NÃO NÃO)\nLUCRO NÃO VEM NA MÃO\n\n',
+          { files: ['https://cdn.discordapp.com/attachments/260933577917595649/860274142048419840/unknown.png'] });
         break;
     }
   }
