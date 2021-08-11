@@ -171,9 +171,16 @@ client.on('message', (message) => {
         break;
 
       case 'madruga':
-      case 'seu madruga':
+      case 'seumadruga':
         message.channel.send(
           { files: ['https://i.imgur.com/8pHYrmq.png'] });
+        break;
+
+      case 'vocenaotem':
+      case 'vcnaotem':
+      case 'vcntem':
+        message.channel.send(
+          { files: ['https://i.imgur.com/27RkfPC.png'] });
         break;
     }
   }
