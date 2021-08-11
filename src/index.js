@@ -173,7 +173,7 @@ client.on('message', (message) => {
       case 'madruga':
       case 'seu madruga':
         message.channel.send(
-          { files: ['https://github.com/matgomes21/dovah'] });
+          { files: ['https://i.imgur.com/8pHYrmq.png'] });
         break;
     }
   }
