@@ -169,6 +169,12 @@ client.on('message', (message) => {
         message.channel.send('GLORIA SENHOR!\nGLORIA SENHOR!\nNOSSO LUCRO É SUADO\nTRABALHAMOS POR AMOR!\nSE VOCÊ FICAR EM CASA, O LUCRO NÃO VEM NA MÃO\nSE FALHAR NA RESPONSA E ERRAR NA MISSÃO\nO LUCRO NÃO VEM NA MÃO (NÃO NÃO)\nLUCRO NÃO VEM NA MÃO\n\n',
           { files: ['https://cdn.discordapp.com/attachments/260933577917595649/860274142048419840/unknown.png'] });
         break;
+
+      case 'madruga':
+      case 'seu madruga':
+        message.channel.send(
+          { files: ['https://github.com/matgomes21/dovah'] });
+        break;
     }
   }
 });
