@@ -182,6 +182,11 @@ client.on('message', (message) => {
         message.channel.send(
           { files: ['https://i.imgur.com/27RkfPC.png'] });
         break;
+
+      case 'dice':
+        message.channel.send(
+          { files: ['https://i.imgur.com/FEicyjG.png'] });
+        break;
     }
   }
 });
