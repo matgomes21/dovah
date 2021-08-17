@@ -157,6 +157,12 @@ client.on('message', (message) => {
         message.channel.send('https://open.spotify.com/playlist/2ZONg885GRx1XlgcsNVzLk?si=2e6d566ba7de4c76');
         break;
 
+        case 'pneu':
+        case 'queimado':
+        case 'cheiro':
+          message.channel.send('https://www.youtube.com/playlist?list=PLLhmrPO8y1X1RN7ax8Im3ID_ONo9Ht-Nt');
+          break;
+
       case 'chave':
       case 'chaves':
         message.channel.send('Lá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\n(Isso, isso, isso, isso..)\n\nLá vem o Chaves, Chaves, Chaves,\nTodos atentos olhando pra TV\nLá vem o Chaves, Chaves, Chaves,\nCom uma historinha bem gostosa de se ver\n\nA Chiquinha é uma gracinha,\nrelincha tanto quando vai chorar\n\nE Seu Madruga, sempre muito calado,\nNão abre a boca só pra não brigar\n\nO Professor Girafales e a Dona Florinda,\nSe gostam tanto mas casório, nada ainda.\n\nE tem o Quico com a bochecha toda inchada,\nE é claro o Chaves, o rei da palhaçada\nE é claro o Chaves, o rei da palhaçada\n\nLá vem o Chaves, Chaves, Chaves,\nTô chegando!\nLá vem o Chaves, Chaves, Chaves!\n\n',
