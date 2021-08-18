@@ -65,7 +65,7 @@ client.on('message', (message) => {
             },
             {
               name: `\u200B\n\n🎵 Músicas`,
-              value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno\n\n**$foda**: Playlist do boo?bi?nha?\n\n**$antigas**: Playlist das antigas\n\n**$hero3**: Playlist Guitar Hero 3\n\n`
+              value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno\n\n**$foda**: Playlist do boo?bi?nha?\n\n**$antigas**: Playlist das antigas\n\n**$hero3**: Playlist Guitar Hero 3\n\n**$pneu**: Cheiro de playlist\n\n`
             },
           ],
           timestamp: new Date(),
