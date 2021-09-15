@@ -2,7 +2,7 @@
   Dovah
 </h1>
 
-A discord bot made with JavaScript and NodeJs.
+A discord bot made for meme purposes.
 
 [Invite to your server!](https://discord.com/oauth2/authorize?client_id=810427321453772801&scope=bot)
 
