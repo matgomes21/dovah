@@ -65,7 +65,14 @@ client.on('message', (message) => {
             },
             {
               name: `\u200B\n\n🎵 Músicas`,
-              value: `\u200B\n**$funk**: Playlist de funk do iluminismo\n\n**$rock**: Playlist de rock do vinicorno\n\n**$foda**: Playlist do boo?bi?nha?\n\n**$antigas**: Playlist das antigas\n\n**$hero3**: Playlist Guitar Hero 3\n\n**$pneu**: Cheiro de playlist\n\n`
+              value: `\u200B\n
+                **$funk**: Playlist de funk do iluminismo\n\n
+                **$rock**: Playlist de rock do vinicorno\n\n
+                **$foda**: Playlist do boo?bi?nha?\n\n
+                **$antigas**: Playlist das antigas\n\n
+                **$hero3**: Playlist Guitar Hero 3\n\n
+                **$pneu**: Cheiro de playlist\n\n
+                **$2021**: 2021 em uma música\n\n`
             },
           ],
           timestamp: new Date(),
@@ -157,11 +164,16 @@ client.on('message', (message) => {
         message.channel.send('https://open.spotify.com/playlist/2ZONg885GRx1XlgcsNVzLk?si=2e6d566ba7de4c76');
         break;
 
-        case 'pneu':
-        case 'queimado':
-        case 'cheiro':
-          message.channel.send('https://www.youtube.com/playlist?list=PLLhmrPO8y1X1RN7ax8Im3ID_ONo9Ht-Nt');
-          break;
+      case 'pneu':
+      case 'queimado':
+      case 'cheiro':
+        message.channel.send('https://www.youtube.com/playlist?list=PLLhmrPO8y1X1RN7ax8Im3ID_ONo9Ht-Nt');
+        break;
+
+      case '2021':
+      case '2021musica':
+        message.channel.send('https://youtu.be/X2mOfqeAH7c?t=126');
+        break;
 
       case 'chave':
       case 'chaves':
