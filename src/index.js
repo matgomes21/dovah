@@ -72,6 +72,7 @@ client.on('message', (message) => {
                 **$antigas**: Playlist das antigas\n\n
                 **$hero3**: Playlist Guitar Hero 3\n\n
                 **$pneu**: Cheiro de playlist\n\n
+                **$2020**: 2020 em uma música\n\n
                 **$2021**: 2021 em uma música\n\n`
             },
           ],
@@ -168,6 +169,11 @@ client.on('message', (message) => {
       case 'queimado':
       case 'cheiro':
         message.channel.send('https://www.youtube.com/playlist?list=PLLhmrPO8y1X1RN7ax8Im3ID_ONo9Ht-Nt');
+        break;
+
+      case '2020':
+      case '2020musica':
+        message.channel.send('https://youtu.be/fLpCyU_SHRo?t=90');
         break;
 
       case '2021':
